@@ -3,6 +3,7 @@
 *{  
     margin: 0;
     padding: 0; 
+    font-family: 'Kalam', cursive;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 
 .grocery .header {
     width: 50%;
-    margin: auto;
+    margin: 5% auto;
     font-size: 50px;
     font-family: 'Kalam', cursive;
 }
@@ -44,13 +45,25 @@ body {
     font-size: 30px;
 }
 
-.imgPencil {
+.imgPin {
     width: 25px;
     cursor: pointer;
 }
 
-.allGrocery {
-    margin-top: 15px;
+.allGrocery h2{
+    margin-top: 25px;
     margin-left: 50px;
     margin-right: 10px;
+    text-align: left;
+    font-size: 35px;
+    color: rgb(59, 59, 59);
+}
+
+@media (max-width: 500px) {
+    .grocery .header {
+        font-size: 21px;
+    }
+    .allGrocery h2 {
+        font-size: 21px;
+    }
 }
