@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+*{  
+    margin: 0;
+    padding: 0; 
+}
+
 body {
     background: rgba(97, 255, 242, 0.356);
 }
@@ -11,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .grocery {
@@ -27,5 +33,24 @@ body {
     margin: auto;
     font-size: 50px;
     font-family: 'Kalam', cursive;
-    border-bottom: 1px solid black;
+}
+
+.inputList {
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+
+.imgPencil {
+    width: 25px;
+    cursor: pointer;
+}
+
+.allGrocery {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 10px;
 }
